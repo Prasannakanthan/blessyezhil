@@ -1,0 +1,114 @@
+input[type="file"] {
+    background-color: red;
+}
+
+.listItems {
+    width: 200px;
+    height: 500px;
+    border: 1px solid;
+}
+
+.sprite {
+    width: 267px;
+    height: 140px;
+    background-image: url(sprite.png);
+    background-position-y: -145px;
+}
+
+.mario {
+    width: 223px;
+    height: 448px;
+    background-position-x: -447px;
+    background-image: url(1_6e3r3rrPTNzXUpJGxbQHRw.png);
+}
+
+input[type="text"] {
+    color: red;
+    border: 1px solid red;
+}
+
+.blueText {
+    font-size: 40px;
+    color: blue;
+    font-weight: 600;
+}
+
+#btn {
+    color: red;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(142, 202, 142);
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+    letter-spacing: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+.solidColor {
+    height: 400px;
+    width: 300px;
+    background-color: black;
+}
+
+img {
+    position: sticky;
+    top: 0px;
+}
+
+.firstDiv,
+.secondDiv {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.secondDiv {
+    background-image: url(jerry-the-mouse-running.gif);
+    /* height: 500px; */
+    background-position: center;
+    /* width: 500px; */
+    background-size: cover;
+}
+
+p:first-child {
+    color: red;
+}
+
+.row div {
+    border: 1px solid;
+}
+
+.titleStyle {
+    color: red;
+    font-size: 25px;
+    border: 1px solid;
+    width: 200px;
+    display: inline-block;
+    height: 185px;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    background: #dbdddf;
+}
+
+.listofitems {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
